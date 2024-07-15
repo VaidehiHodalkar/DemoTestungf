@@ -15,6 +15,13 @@ public class xa {
 		System.out.println("This is the smoke test2");
 	}
 	
+
+	@Test(groups= {"Smoke"})
+	public void n2()
+	{
+		System.out.println("This is the smoke test2");
+	}
+	
 	@AfterTest
 	public void a()
 	{
