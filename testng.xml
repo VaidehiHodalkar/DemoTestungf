@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ 
+  
+  <test thread-count="5" name="Test2">
+
+    <classes>
+      <class name="gdfgd.xa">
+      <methods>
+      <exclude name="n.*"/>
+       </methods>
+     </class>
+    </classes>
+  </test> 
+  
+   <test thread-count="5" name="Test3">
+    <classes>
+      <class name="gdfgd.xa">
+      <methods>
+      <include name="a"/>
+       </methods>
+     </class>
+    </classes>
+  </test> 
+  
+  <test thread-count="5" name="Test4">
+    <classes>
+      <class name="gdfgd.priority">
+      <methods>
+      
+       </methods>
+     </class>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->
